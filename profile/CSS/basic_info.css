@@ -1,0 +1,67 @@
+.basic-info {
+    padding-top: 115px;
+}
+
+.basic-info h2 {
+    font-weight: 800;
+    background: linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 60.15%);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 60px;
+    line-height: 70px;
+    width: fit-content;
+}
+
+.divider {
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 100%;
+    height: 1px;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.basic-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.basic-container img {
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+    object-fit: cover;
+}
+
+.vertical-divider {
+    margin-left: 40px;
+    width: 8px;
+    border-radius: 10px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.basic-container>ul {
+    margin-left: 40px;
+}
+
+.basic-container li {
+    font-size: 20px;
+    color: white;
+}
+
+.basic-container li div {
+    padding-top: 10px;
+    line-height: 27px;
+}
+
+.basic-container li span {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.66);
+}
+
+.basic-container iframe {
+    margin-left: 20%;
+    margin-right: auto;
+    margin-top: 20px;
+}
