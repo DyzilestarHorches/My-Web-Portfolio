@@ -1,0 +1,100 @@
+.project>section {
+    padding-top: 8%;
+    padding-right: 8%;
+}
+
+.divider {
+    background: linear-gradient(270deg, #00DBD8 0%, #B133FF 100%);
+    width: 80px;
+    height: 8px;
+    border-radius: 8px;
+}
+
+.project>section>h2 {
+    padding-top: 4%;
+    font-weight: 800;
+    background: linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 60.15%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 60px;
+    line-height: 70px;
+    width: fit-content;
+}
+
+.project-container {
+    padding-top: 7%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.projs {
+    box-shadow: 3px 3px 20px rgb(80 78 78 / 50%);
+    margin-bottom: 4%;
+    width: 40%;
+    border-width: 2px;
+    background-color: #0F1624;
+    border-style: solid;
+}
+
+.projs img {
+    width: 100%;
+}
+
+.projs h3 {
+    margin-top: 20px;
+    color: #9cc9e3;
+    font-size: 32px;
+    text-align: center;
+}
+
+.small-divider {
+    height: 4px;
+    width: 16%;
+    background-color: #d0bb57;
+    border-radius: 5px;
+    margin-left: 42%;
+    margin-top: 28px;
+    margin-right: auto;
+}
+
+.projs p {
+    color: #e4e6e7;
+    text-align: justify;
+    font-size: 15px;
+    line-height: 25px;
+    padding: 15px 50px 15px 50px;
+}
+
+.projs h4 {
+    font-size: 17px;
+    color: #e4e6e7;
+    text-align: center;
+}
+
+.stack-list {
+    padding: 5% 3% 5% 3%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.projs ul li {
+    color: #d8bfbf;
+    font-size: 15px;
+}
+
+.projs .button-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.button-container button {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 25%;
+    height: 35px;
+    border-radius: 40px;
+    background-color: #6b3030;
+    color: #d8bfbf;
+    border: none;
+}

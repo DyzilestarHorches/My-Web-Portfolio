@@ -1,0 +1,58 @@
+header {
+    position: fixed;
+    width: calc(100% - 6vh);
+    justify-content: space-around;
+    padding: 5vh 3vh 3vh 3vh;
+    background-color: #0F1624;
+}
+
+.nav-container {
+    position: relative;
+    display: flex;
+    background: transparent;
+    justify-content: space-between;
+}
+
+.nav {
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    position: relative;
+    margin-left: -10vh;
+}
+
+.nav li {
+    align-content: flex-end;
+}
+
+.nav-choice {
+    margin-left: 5vw;
+    font-size: larger;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.75);
+    text-align: right;
+}
+
+.logo {
+    display: flex;
+    align-items: flex-end;
+}
+
+.logo h1 {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.contact {
+    align-content: end;
+    position: relative;
+    height: 5vh;
+}
+
+.contact img {
+    margin-left: 1vw;
+    height: 5vh;
+    position: relative;
+    border-radius: 5px;
+}
